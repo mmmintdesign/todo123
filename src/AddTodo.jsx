@@ -63,7 +63,7 @@ function AddTodo(props) {
 						value={todo.year}
 						onChange={inputChanged}
 						margin="dense"
-						label="Priority"
+						label="Year"
 						fullWidth
 					/>
 					<TextField
@@ -71,7 +71,7 @@ function AddTodo(props) {
 						value={todo.isbn}
 						onChange={inputChanged}
 						margin="dense"
-						label="Priority"
+						label="Isbn"
 						fullWidth
 					/>
 					<TextField
@@ -79,7 +79,7 @@ function AddTodo(props) {
 						value={todo.price}
 						onChange={inputChanged}
 						margin="dense"
-						label="Priority"
+						label="Price"
 						fullWidth
 					/>
 				</DialogContent>
